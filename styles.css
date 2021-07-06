@@ -1,0 +1,56 @@
+:root{
+    font-family:  'Roboto', sans-serif;
+
+}
+
+html{
+    font-size: 16px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@media  screen and (max-width: 480px) {
+    #wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        display: flex;
+        background-color: #EC9A71;
+        color: white;
+        width: 100%;
+        font-size: 2rem;
+    }
+    nav ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    nav  a{
+        display: block;
+        color: wheat
+
+    }
+    #home{
+        margin: 9rem 1rem;
+        margin-top:  10rem;
+        text-align: left;
+        font-size: 2rem;
+
+    }
+    .levels{
+        margin: ;
+        font-size: 2rem;
+        text-align: center;
+        line-height: 4rem;
+
+    }
+    
+    
+    
+}
