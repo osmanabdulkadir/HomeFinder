@@ -21,36 +21,124 @@ html{
         top: 0;
         display: flex;
         background-color: #EC9A71;
-        color: white;
+        color: rgb(24,30,77);
         width: 100%;
-        font-size: 2rem;
+        height: 10vh;
+        z-index: 0;
+        font-size: 1rem;
     }
     nav ul{
+        visibility: hidden;
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
+        
     }
-    nav  a{
-        display: block;
-        color: wheat
+    nav i{
+        position: absolute;
+        font-size: 2rem;
+        margin-left: 9rem;
+        margin-top: 1rem;
+    }
+    nav p{
+        display: inline;
+        position: relative;
+        margin-top: 1rem;
+        margin-left: 12rem;
+    }
 
+    .search-bar{
+        visibility: hidden;
     }
+    
     #home{
         margin: 9rem 1rem;
         margin-top:  10rem;
-        text-align: left;
+        text-align: center;
+        line-height: 3.5rem;
         font-size: 2rem;
 
     }
+    .btn-1{
+        margin-top: 1rem;
+        border: 1px solid black;
+        border-radius: 5rem;
+         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+        background-color: #EC9A71;
+        font-size: 1.5rem;
+        width: 12rem;
+        height: 4rem
+    }
     .levels{
-        margin: ;
+        margin: auto;
+        color: rgb(24,30,77);
         font-size: 2rem;
         text-align: center;
         line-height: 4rem;
 
     }
+    .btn-2{
+        margin-top: 1rem;
+        border: 1px solid black;
+        border-radius: 5rem;
+         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+        background-color: #EC9A71;
+        font-size: 1.5rem;
+        width: 12rem;
+        height: 4rem
+
+    }
+
+    #sold-homes{
+        margin: 1rem 3rem;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    #top-selling{
+        margin: 2rem 5rem;
+        line-height: 3rem;
+        font-size: 2rem;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    #img-4{
+        width: 2rem;
+        margin-top: 2rem;
+    }
+
+    footer{
+        width: 100vw;
+        font-size: 2rem;
+        bottom: 0;
+        background-color: #EC9A71;
+        color: rgb(24,30,77);
+    }
+    #footer-text h3{
+        text-align: center;
+    }
     
-    
+    #footer-text{
+        margin-top: 1rem;
+        margin-left: 1rem;
+
+    }
+    .footer-list{
+        margin: 1rem auto;
+        font-size: 1.5rem;
+        text-align: center;
+        line-height: 2rem;
+
+    }
+    hr{
+        width: 80vw;
+        margin: 0rem auto;
+        height: .1rem;
+        color: black;
+        background-color: black;
+    }
     
 }
