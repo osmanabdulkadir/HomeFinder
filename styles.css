@@ -78,7 +78,7 @@ nav input{
     background-color: #EC9A71;
     border: 1px solid black;
     border-radius: 1.6rem;
-    box-shadow: -1px 14px 10px -10px rgba(0,0,0,1);;
+    box-shadow: -1px 14px 10px -10px rgba(0,0,0,1);
 }
 
 .sold-homes{
@@ -147,7 +147,8 @@ footer ul{
     }
     
     .wrapper{
-        width: 99%;
+        width: 90%;
+        padding: 0;
     }
 
     nav{
@@ -158,8 +159,9 @@ footer ul{
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        width: 100%;
+        width: 100vw;
         margin: 0 auto;
+        margin-left: -2rem;
         font-size: rem;
         color: blanchedalmond;
         
@@ -173,14 +175,119 @@ footer ul{
         margin-top: 2rem;
         flex: 50%;
     }
-    .image{
+    #title-1{
+        margin-top: 10rem;
+    }
+    .levels{
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 2rem;
+        line-height: 4rem;
+        word-spacing: .3rem;
+    }
+    .btn-2{
+        width: 70vw;
+        height: 4rem;
+    }
+    .sold-home{
+        width: 90vw;
+
+    }
+    .image{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: -3rem;
     }
 
     .images{
-        flex: 33.3%;
-        padding: 10rem;
+        height: 100%;
+        padding: 1rem 1rem;
+    }
+    .img-1{
+        width: 15rem;
+        height: 25rem;
+        
+    }
+    .top-selling{
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    .lists{
+        display: flex;
+        margin-top: 2rem;
+        justify-content: space-evenly;
+    }
+
+    .img-4{
+        margin: 2rem auto;
+        width: 25rem;
+    }
+
+    
+}
+@media  screen and (min-width: 1100px) {
+    html{
+        font-size: 16px;
+    }
+
+    .wrapper{
+        width: 99%;
     }
     
+    nav{
+        width: 100%;
+        height: 10vh;
+        background-color: white;
+    }
+    .nav-wrapper{
+        font-size: 1rem;
+    }
+
+    .home{
+        display: flex;
+    }
+
+    #img-1{
+        width: 30rem;
+        height: 100%;
+        box-shadow: 2px 1px 47px 6px rgba(0,0,0,0.34);;
+    }
+
+    .levels{
+        flex-direction: row;
+        text-align: left;
+        font-size: 1.5rem;
+        line-height: 1.5;
+        margin-left: 1rem;
+        
+    }
+    .btn-2{
+        position: relative;
+        margin-top: 5rem;
+        width: 10rem;
+        height: 2rem;
+        font-size: 1rem;
+        border: 1px solid black;
+        border-radius: 0px;
+        background-color: white;
+        box-shadow: none;
+
+    }
+    .top-selling{
+        margin-top: 2rem;
+        display: flex;
+       
+    }
+    .selling-column{
+        flex: 50%;
+    }
+
+    footer{
+        width: 100%;
+        background-color: white;
+    }
 }
 
